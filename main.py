@@ -135,8 +135,8 @@ def create(msg):
 @bot.message_handler(commands=["contact", "dev"])
 def contactme(msg):
 	mrkp = ikm()
-	mrkp.add(ikb("Telegram", url="https://t.me/advik_143"))
 	mrkp.add(ikb("Email", url="https://u.advik.dev/email"), ikb("Reddit", url="https://u.advik.dev/"))
+	mrkp.add(ikb("Source Code", url="https://u.advik.dev/DABot"))
 	bot.reply_to(msg, "Yo, I'mma bot made by @advik_143. Hit me up if you have any question or you wanna suggest a new function.", reply_markup=mrkp)
 
 

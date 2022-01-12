@@ -91,7 +91,7 @@ def final(msg):
         if msg.from_user.id != 1060264505:
             bot.send_message(1060264505, f"{msg.from_user.first_name} created a link: {shortlink}\nLink ID: <code>{linkid}</code>", disable_web_page_preview=True)
             
-            bot.send_message(msg.from_user.id, f"Done! \nThe shortened URL is: {shortlink} \nLink ID: <code>{linkid}</code>", disable_web_page_preview=True)
+        bot.send_message(msg.from_user.id, f"Done! \nThe shortened URL is: {shortlink} \nLink ID: <code>{linkid}</code>", disable_web_page_preview=True)
 
 
 @bot.message_handler(commands=["del", "delete"])

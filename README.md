@@ -1,4 +1,4 @@
-[![Better Uptime Badge](https://betteruptime.com/status-badges/v1/monitor/9hwi.svg)](https://betteruptime.com/?utm_source=status_badge)
+[![Better Uptime Badge](https://betteruptime.com/status-badges/v1/monitor/9hwi.svg)](https://tgbots.advik.dev)
 
 # DevAdvikBot
 A telegram bot for personal use
